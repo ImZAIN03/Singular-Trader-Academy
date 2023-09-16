@@ -11,6 +11,8 @@ import Section from './components/Section';
 import Topics from './components/Topics';
 import Course from './components/Course';
 import Login from './components/Login';
+import SignUp from './components/SignUp';
+import Forgot from './components/Forgot';
 // import info from './Routes/info'
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         />
         <Route path="/course" element={<Course />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/forgot" element={<Forgot />} />
       </Routes>
       <Footer />
       <Copyright />

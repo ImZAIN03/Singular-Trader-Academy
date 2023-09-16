@@ -26,9 +26,9 @@ const Navbar = () => {
           <a href="/course" className="hover:text-black font-semibold">
             Disclaimer
           </a>
-          <button className="text-white hover:bg-white hover:text-black border border-white font-semibold py-2 px-4 rounded-full">
-            <Link to="/login">Login</Link>
-          </button>
+          <Link to="/login" className="text-white hover:bg-white hover:text-black border border-white font-semibold py-2 px-4 rounded-full">
+            Login
+          </Link>
         </div>
       </div>
     </nav>
