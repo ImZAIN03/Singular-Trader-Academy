@@ -1,4 +1,6 @@
+import Disclaimer from "../course/Disclaimer"
 import Program from "../course/Program"
+import Questions from "../course/Questions"
 import Training from "../course/Training"
 
 const Course = () => {
@@ -6,6 +8,8 @@ const Course = () => {
     <div>
       <Training/>
       <Program/>
+      <Questions/>
+      <Disclaimer/>
     </div>
   )
 }
