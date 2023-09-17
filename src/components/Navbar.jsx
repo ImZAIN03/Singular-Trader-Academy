@@ -10,16 +10,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mt-4 bg-[#031329] text-white py-2 px-3 sticky top-0 w-4/5 mx-auto rounded-full z-50 relative">
+    <nav className="mt-4 bg-[#031329] text-white py-2 px-3 sticky top-0 w-full sm:w-4/5 md:w-4/5 lg:w-4/5 mx-auto rounded-full z-50 relative">
       <div className="flex justify-between items-center">
-        <Link
-        to="/"
-        >
-        <img
-          className="w-48 h-auto"
-          src="https://smashcode-singular-trader.web.app/static/media/logo_main.8bc0fbdcc0695ccbc97f.png"
-          alt="yes"
-        />
+        <Link to="/">
+          <img
+            className="w-48 h-auto"
+            src="https://smashcode-singular-trader.web.app/static/media/logo_main.8bc0fbdcc0695ccbc97f.png"
+            alt="yes"
+          />
         </Link>
         <div className="md:hidden">
           <button
@@ -42,26 +40,17 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/course"
-                    className="block hover:text-black font-semibold mb-2"
-                  >
+                  <Link to="/course" className="block hover:text-black font-semibold mb-2">
                     Course
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="/course"
-                    className="block hover:text-black font-semibold mb-2"
-                  >
+                  <a href="/course" className="block hover:text-black font-semibold mb-2">
                     FAQ
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="/course"
-                    className="block hover:text-black font-semibold mb-2"
-                  >
+                  <a href="/course" className="block hover:text-black font-semibold mb-2">
                     Disclaimer
                   </a>
                 </li>
@@ -82,19 +71,19 @@ const Navbar = () => {
             menuOpen ? 'block' : 'hidden'
           } md:flex md:space-x-6 mt-2 md:mt-0`}
         >
-          <Link to="/" className=" font-semibold">
+          <Link to="/" className="font-semibold">
             Home
           </Link>
-          <Link to="/" className=" font-semibold">
+          <Link to="/" className="font-semibold">
             About Us
           </Link>
-          <Link to="/course" className=" font-semibold">
+          <Link to="/course" className="font-semibold">
             Course
           </Link>
-          <a href="/course" className=" font-semibold">
+          <a href="/course" className="font-semibold">
             FAQ
           </a>
-          <a href="/course" className=" font-semibold">
+          <a href="/course" className="font-semibold">
             Disclaimer
           </a>
           <Link
