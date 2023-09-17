@@ -12,11 +12,15 @@ const Navbar = () => {
   return (
     <nav className="mt-4 bg-[#031329] text-white py-2 px-3 sticky top-0 w-4/5 mx-auto rounded-full z-50 relative">
       <div className="flex justify-between items-center">
+        <Link
+        to="/"
+        >
         <img
           className="w-48 h-auto"
           src="https://smashcode-singular-trader.web.app/static/media/logo_main.8bc0fbdcc0695ccbc97f.png"
           alt="yes"
         />
+        </Link>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}

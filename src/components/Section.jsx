@@ -3,19 +3,19 @@ import React from 'react';
 
 const Section = () => {
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex mt-3">
-          <div className="w-1/2">
+        <div className="flex flex-col lg:flex-row mt-3">
+          <div className="w-full lg:w-1/2">
             <img
               src="https://smashcode-singular-trader.web.app/static/media/sec_2.0e0df1e6b568f4c59bec.jpeg"
               alt="The Image"
               className="h-90 w-90 object-contain shadow-2xl"
             />
           </div>
-          <div className="bg-cover bg-center w-1/2 relative">
-            <div className="h-full flex items-center text-left justify-center">
-              <div className="text-black max-w-md text-left">
+          <div className="w-full lg:w-1/2 bg-cover bg-center relative">
+            <div className="h-full flex items-center text-center lg:text-left justify-center p-4">
+              <div className="text-black max-w-md">
                 <h1 className="text-[#1D1D1DEF] text-3xl mb-4 font-bold">
                   Improve your chart analysis using our solutions
                 </h1>

@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-
+  
 const Banner = () => {
   const textShadowStyle = {
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', // Adjust the shadow values as needed
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
   };
 
   return (
