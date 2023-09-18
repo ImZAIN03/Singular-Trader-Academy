@@ -24,6 +24,7 @@ const Navbar = () => {
             onClick={toggleMenu}
             className="text-white hover:bg-white hover:text-black border border-white font-semibold py-2 px-4 rounded-full"
           >
+          
             Menu
           </button>
           {menuOpen && (
