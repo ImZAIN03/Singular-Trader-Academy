@@ -27,7 +27,7 @@ const Navbar = () => {
             Menu
           </button>
           {menuOpen && (
-            <div className="absolute mt-12 right-0 w-48 bg-[#031329] text-white py-2 px-4 rounded-lg shadow-lg">
+            <div className="absolute mt-4 right-0 w-48 bg-[#031329] text-white py-2 px-4 rounded-lg shadow-lg">
               <ul>
                 <li>
                   <Link to="/" className="block hover:text-black font-semibold mb-2">
@@ -66,11 +66,7 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <div
-          className={`${
-            menuOpen ? 'block' : 'hidden'
-          } md:flex md:space-x-6 mt-2 md:mt-0`}
-        >
+        <div className="hidden md:flex space-x-6 mt-2 md:mt-0">
           <Link to="/" className="font-semibold">
             Home
           </Link>
